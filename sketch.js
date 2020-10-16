@@ -18,6 +18,7 @@ function setup() {
   radiusStep = random(20);
   colorStep = int(random(2,50));
   showCurrentParam(radius, degreeStep, radiusStep, colorStep)
+  print('Pause : Space bar');
   print('radius: '+radius + ', degreeStep: ' + degreeStep + ', radiusStep: ' + radiusStep);
   print('colorStep: '+colorStep);
 }
